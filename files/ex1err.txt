@@ -1,0 +1,9 @@
+string password = "password;
+bool condition = 1;
+while (condition){
+    string 1passwordInput;
+    input(1passwordInput);
+    if(1passwordInput == password){
+        output("Hello");
+    }
+}

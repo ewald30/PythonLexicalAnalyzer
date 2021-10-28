@@ -1,0 +1,20 @@
+int x;
+int y;
+int z;
+int smallest = 9999;
+
+input(x);
+input(y);
+input(z);
+
+if(x < smallest){
+    smallest = x;
+}
+
+if (y < smallest){
+    smallest = y;
+}
+
+if (z < smallest){
+    smallest = y;
+}

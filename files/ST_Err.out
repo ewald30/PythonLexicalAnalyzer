@@ -1,0 +1,42 @@
+/---------------- INPUT ----------------/
+
+string password = "password;
+bool condition = 1;
+while (condition){
+    string 1passwordInput;
+    input(1passwordInput);
+    if(1passwordInput == password){
+        output("Hello");
+    }
+}
+/---------------------------------------/
+
+
+
+
+/---------------- STATUS ----------------/
+
+          Lexical error! Line: 1 Token: "password
+
+
+          Lexical error! Line: 4 Token: 1passwordInput
+
+
+          Lexical error! Line: 5 Token: 1passwordInput
+
+
+          Lexical error! Line: 6 Token: 1passwordInput
+
+/---------------------------------------/
+
+
+
+
+
+
+
+/----------------- Symbol Table ---------------/
+Symbol:  1 | Value:  0 | Next: ( None )
+Symbol:  password | Value:  0 | Next: ( Symbol:  password | Value:  0 | Next: ( Symbol:  "Hello" | Value:  0 | Next: ( None ) ) )
+Symbol:  condition | Value:  0 | Next: ( Symbol:  condition | Value:  0 | Next: ( None ) )
+/----------------------------------------------/

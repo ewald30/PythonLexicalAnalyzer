@@ -1,0 +1,7 @@
+int nr1;
+int nr2;
+int sum;
+input(nr1);
+input(nr2);
+sum = nr1 + nr2;
+output(sum);

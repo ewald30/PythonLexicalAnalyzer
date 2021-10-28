@@ -1,28 +1,31 @@
 /---------------- INPUT ----------------/
 
-int a;
-string pass;
-bool condition;
-int passWord24;
-output(a);
-222;
-'a'
-"asdasd"
-for(int i=1; i<n; i++){
-output("Hello");
-}
+int nr1;
+int nr2;
+int sum;
+input(nr1);
+input(nr2);
+sum = nr1 + nr2;
+output(sum);
 
 /---------------------------------------/
 
 
 
 
+/---------------- STATUS ----------------/
+
+          Lexically correct!
+
+/---------------------------------------/
+
+
+
+
+
+
+
 /----------------- Symbol Table ---------------/
-Symbol:  pass | Value:  0 | Next: ( Symbol:  222 | Value:  0 | Next: ( None ) )
-Symbol:  a | Value:  0 | Next: ( Symbol:  a | Value:  0 | Next: ( Symbol:  i | Value:  0 | Next: ( Symbol:  1 | Value:  0 | Next: ( Symbol:  i | Value:  0 | Next: ( Symbol:  n | Value:  0 | Next: ( Symbol:  i | Value:  0 | Next: ( None ) ) ) ) ) ) )
-Symbol:  "Hello" | Value:  0 | Next: ( None )
-Symbol:  "asdasd" | Value:  0 | Next: ( None )
-Symbol:  condition | Value:  0 | Next: ( None )
-Symbol:  'a' | Value:  0 | Next: ( None )
-Symbol:  passWord24 | Value:  0 | Next: ( None )
+Symbol:  nr1 | Value:  0 | Next: ( Symbol:  nr2 | Value:  0 | Next: ( Symbol:  nr1 | Value:  0 | Next: ( Symbol:  nr2 | Value:  0 | Next: ( Symbol:  nr1 | Value:  0 | Next: ( Symbol:  nr2 | Value:  0 | Next: ( None ) ) ) ) ) )
+Symbol:  sum | Value:  0 | Next: ( Symbol:  sum | Value:  0 | Next: ( Symbol:  sum | Value:  0 | Next: ( None ) ) )
 /----------------------------------------------/

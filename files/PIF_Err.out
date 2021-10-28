@@ -1,0 +1,110 @@
+/---------------- INPUT ----------------/
+
+string password = "password;
+bool condition = 1;
+while (condition){
+    string 1passwordInput;
+    input(1passwordInput);
+    if(1passwordInput == password){
+        output("Hello");
+    }
+}
+/---------------------------------------/
+
+
+
+
+/---------------- STATUS ----------------/
+
+          Lexical error! Line: 1 Token: "password
+
+
+          Lexical error! Line: 4 Token: 1passwordInput
+
+
+          Lexical error! Line: 5 Token: 1passwordInput
+
+
+          Lexical error! Line: 6 Token: 1passwordInput
+
+/---------------------------------------/
+
+
+
+
+
+
+/----------------  PIF  ----------------/
+
+string : -1
+  : -1
+password : 2
+  : -1
+= : -1
+  : -1
+; : -1
+bool : -1
+  : -1
+condition : 5
+  : -1
+= : -1
+  : -1
+1 : 1
+; : -1
+while : -1
+  : -1
+( : -1
+condition : 15
+) : -1
+{ : -1
+  : -1
+  : -1
+  : -1
+  : -1
+string : -1
+  : -1
+; : -1
+  : -1
+  : -1
+  : -1
+  : -1
+input : -1
+( : -1
+) : -1
+; : -1
+  : -1
+  : -1
+  : -1
+  : -1
+if : -1
+( : -1
+  : -1
+= : -1
+= : -1
+  : -1
+password : 12
+) : -1
+{ : -1
+  : -1
+  : -1
+  : -1
+  : -1
+  : -1
+  : -1
+  : -1
+  : -1
+output : -1
+( : -1
+"Hello" : 22
+) : -1
+; : -1
+  : -1
+  : -1
+  : -1
+  : -1
+} : -1
+} : -1
+/---------------------------------------/
+
+
+

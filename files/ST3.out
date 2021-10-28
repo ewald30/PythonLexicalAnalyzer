@@ -1,0 +1,40 @@
+/---------------- INPUT ----------------/
+
+int i;
+int sum;
+int array[5];
+sum = 0;
+
+for(i=0; i<4; i++){
+    input(array[i]);
+}
+
+for(i=0; i<4; i++){
+    sum = sum + array[i];
+}
+
+output("Result");
+output(sum);
+/---------------------------------------/
+
+
+
+
+/---------------- STATUS ----------------/
+
+          Lexically correct!
+
+/---------------------------------------/
+
+
+
+
+
+
+
+/----------------- Symbol Table ---------------/
+Symbol:  "Result" | Value:  0 | Next: ( None )
+Symbol:  i | Value:  0 | Next: ( Symbol:  0 | Value:  0 | Next: ( Symbol:  i | Value:  0 | Next: ( Symbol:  0 | Value:  0 | Next: ( Symbol:  i | Value:  0 | Next: ( Symbol:  4 | Value:  0 | Next: ( Symbol:  i | Value:  0 | Next: ( Symbol:  i | Value:  0 | Next: ( Symbol:  0 | Value:  0 | Next: ( Symbol:  i | Value:  0 | Next: ( Symbol:  4 | Value:  0 | Next: ( Symbol:  i | Value:  0 | Next: ( None ) ) ) ) ) ) ) ) ) ) ) )
+Symbol:  sum | Value:  0 | Next: ( Symbol:  sum | Value:  0 | Next: ( Symbol:  sum | Value:  0 | Next: ( Symbol:  sum | Value:  0 | Next: ( Symbol:  sum | Value:  0 | Next: ( None ) ) ) ) )
+Symbol:  array[5] | Value:  0 | Next: ( Symbol:  array[i] | Value:  0 | Next: ( Symbol:  array[i] | Value:  0 | Next: ( None ) ) )
+/----------------------------------------------/

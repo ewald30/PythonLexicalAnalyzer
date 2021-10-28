@@ -1,0 +1,45 @@
+/---------------- INPUT ----------------/
+
+int x;
+int y;
+int z;
+int smallest = 9999;
+
+input(x);
+input(y);
+input(z);
+
+if(x < smallest){
+    smallest = x;
+}
+
+if (y < smallest){
+    smallest = y;
+}
+
+if (z < smallest){
+    smallest = y;
+}
+/---------------------------------------/
+
+
+
+
+/---------------- STATUS ----------------/
+
+          Lexically correct!
+
+/---------------------------------------/
+
+
+
+
+
+
+
+/----------------- Symbol Table ---------------/
+Symbol:  nr1 | Value:  0 | Next: ( Symbol:  nr2 | Value:  0 | Next: ( Symbol:  nr1 | Value:  0 | Next: ( Symbol:  nr2 | Value:  0 | Next: ( Symbol:  nr1 | Value:  0 | Next: ( Symbol:  nr2 | Value:  0 | Next: ( Symbol:  smallest | Value:  0 | Next: ( Symbol:  smallest | Value:  0 | Next: ( Symbol:  smallest | Value:  0 | Next: ( Symbol:  smallest | Value:  0 | Next: ( Symbol:  smallest | Value:  0 | Next: ( Symbol:  smallest | Value:  0 | Next: ( Symbol:  smallest | Value:  0 | Next: ( None ) ) ) ) ) ) ) ) ) ) ) ) )
+Symbol:  x | Value:  0 | Next: ( Symbol:  y | Value:  0 | Next: ( Symbol:  z | Value:  0 | Next: ( Symbol:  x | Value:  0 | Next: ( Symbol:  y | Value:  0 | Next: ( Symbol:  z | Value:  0 | Next: ( Symbol:  x | Value:  0 | Next: ( Symbol:  x | Value:  0 | Next: ( Symbol:  y | Value:  0 | Next: ( Symbol:  y | Value:  0 | Next: ( Symbol:  z | Value:  0 | Next: ( Symbol:  y | Value:  0 | Next: ( None ) ) ) ) ) ) ) ) ) ) ) )
+Symbol:  9999 | Value:  0 | Next: ( None )
+Symbol:  sum | Value:  0 | Next: ( Symbol:  sum | Value:  0 | Next: ( Symbol:  sum | Value:  0 | Next: ( None ) ) )
+/----------------------------------------------/

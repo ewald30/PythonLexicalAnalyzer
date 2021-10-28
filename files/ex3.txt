@@ -1,0 +1,15 @@
+int i;
+int sum;
+int array[5];
+sum = 0;
+
+for(i=0; i<4; i++){
+    input(array[i]);
+}
+
+for(i=0; i<4; i++){
+    sum = sum + array[i];
+}
+
+output("Result");
+output(sum);

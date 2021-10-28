@@ -1,0 +1,13 @@
+/---------------- INPUT ----------------/int a;
+string pass;
+bool condition;
+int passWord24;
+output(a);
+222;
+'a'
+"asdasd"
+for(int i=1; i<n; i++){
+output(1)
+}
+
+/---------------------------------------/
